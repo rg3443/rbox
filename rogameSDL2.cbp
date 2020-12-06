@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rogameSDL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rogameSDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/c++/SDL2/main/include/SDL2" />
+					<Add directory="C:/c++/SDL2/ttf/include/SDL2" />
+					<Add directory="$(#boost)" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_mixer -lSDL2_image" />
+					<Add directory="C:/c++/SDL2/main/lib" />
+					<Add directory="C:/c++/SDL2/ttf/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rogameSDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_mixer -lSDL2_image" />
+		</Linker>
+		<Unit filename="../3dparty/Economic/CLocationEconomy.cpp" />
+		<Unit filename="../3dparty/Economic/CLocationEconomy.h" />
+		<Unit filename="../3dparty/Economic/economy_ph.h" />
+		<Unit filename="../3dparty/Economic/products/CBaseProduct.cpp" />
+		<Unit filename="../3dparty/Economic/products/CBaseProduct.h" />
+		<Unit filename="../3dparty/Economic/products/goods/CGoodsProduct.cpp" />
+		<Unit filename="../3dparty/Economic/products/goods/CGoodsProduct.h" />
+		<Unit filename="../3dparty/Economic/products/items/CBaseItemProduct.cpp" />
+		<Unit filename="../3dparty/Economic/products/items/CBaseItemProduct.h" />
+		<Unit filename="../3dparty/Economic/products/items/CItemGlobal.h" />
+		<Unit filename="../3dparty/Economic/products/items/weapons/CWeaponProduct.cpp" />
+		<Unit filename="../3dparty/Economic/products/items/weapons/CWeaponProduct.h" />
+		<Unit filename="Presenter/cpresenter.cpp" />
+		<Unit filename="Presenter/cpresenter.h" />
+		<Unit filename="Sup/DebugTool/Debug.cpp" />
+		<Unit filename="Sup/DebugTool/Debug.h" />
+		<Unit filename="Sup/Logs/ScreenSaver/CScreenSaver.cpp" />
+		<Unit filename="Sup/Logs/ScreenSaver/CScreenSaver.h" />
+		<Unit filename="Sup/Logs/cLog.cpp" />
+		<Unit filename="Sup/Logs/cLog.h" />
+		<Unit filename="Sup/QABsys/trueQAB.cpp" />
+		<Unit filename="Sup/QABsys/trueQAB.h" />
+		<Unit filename="Sup/rndptk/rndforclan.cpp" />
+		<Unit filename="Sup/rndptk/rndforclan.h" />
+		<Unit filename="Sup/rndptk/rndname.cpp" />
+		<Unit filename="Sup/rndptk/rndname.h" />
+		<Unit filename="Sup/rndptk/rndptk.cpp" />
+		<Unit filename="Sup/rndptk/rndptk.h" />
+		<Unit filename="Sup/rndptk/rndsname.cpp" />
+		<Unit filename="Sup/rndptk/rndsname.h" />
+		<Unit filename="Sup/trand/trand.cpp" />
+		<Unit filename="Sup/trand/trand.h" />
+		<Unit filename="View/new/CBRender/CBRender.cpp" />
+		<Unit filename="View/new/CBRender/CBRender.h" />
+		<Unit filename="View/new/CView.cpp" />
+		<Unit filename="View/new/CView.h" />
+		<Unit filename="View/new/GSDL2.cpp" />
+		<Unit filename="View/new/GSDL2.h" />
+		<Unit filename="View/new/Input/CAction.cpp" />
+		<Unit filename="View/new/Input/CAction.h" />
+		<Unit filename="View/new/Input/CActionList.cpp" />
+		<Unit filename="View/new/Input/CActionList.h" />
+		<Unit filename="View/new/Input/CInput.cpp" />
+		<Unit filename="View/new/Input/CInput.h" />
+		<Unit filename="View/new/scenes/CBaseScene.h" />
+		<Unit filename="View/new/scenes/CDefaultScene.h" />
+		<Unit filename="View/new/scenes/GSceneComponents.h" />
+		<Unit filename="View/new/scenes/GTextureCodename.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="model/CBaseModelObject.h" />
+		<Unit filename="model/CChunk/CChunk.cpp" />
+		<Unit filename="model/CChunk/CChunk.h" />
+		<Unit filename="model/CChunk/CChunkList.cpp" />
+		<Unit filename="model/CChunk/CChunkList.h" />
+		<Unit filename="model/CDialogue/CDialogue.cpp" />
+		<Unit filename="model/CDialogue/CDialogue.h" />
+		<Unit filename="model/CDialogue/CDialogueBlock.cpp" />
+		<Unit filename="model/CDialogue/CDialogueBlock.h" />
+		<Unit filename="model/CDialogue/CDialogueList.cpp" />
+		<Unit filename="model/CDialogue/CDialogueList.h" />
+		<Unit filename="model/CDialogue/console_dialogue_presenter.cpp" />
+		<Unit filename="model/CDialogue/console_dialogue_presenter.h" />
+		<Unit filename="model/CDiplomacy/CDiplomacy.cpp" />
+		<Unit filename="model/CDiplomacy/CDiplomacy.h" />
+		<Unit filename="model/CGlobalModel.h" />
+		<Unit filename="model/CItem/CBaseItem.h" />
+		<Unit filename="model/CItem/CFoodItem.h" />
+		<Unit filename="model/CItem/CInstrument.h" />
+		<Unit filename="model/CItem/CInventory.cpp" />
+		<Unit filename="model/CItem/CInventory.h" />
+		<Unit filename="model/CItem/CWeaponItem.h" />
+		<Unit filename="model/CMenu/CMenuList.cpp" />
+		<Unit filename="model/CMenu/CMenuList.h" />
+		<Unit filename="model/CModel.cpp" />
+		<Unit filename="model/CModel.h" />
+		<Unit filename="model/CPlayerPhase/BattleSystem/CBattleSystem.cpp" />
+		<Unit filename="model/CPlayerPhase/BattleSystem/CBattleSystem.h" />
+		<Unit filename="model/CPlayerPhase/CPawn.cpp" />
+		<Unit filename="model/CPlayerPhase/CPawn.h" />
+		<Unit filename="model/CPlayerPhase/CPlayerPhase.cpp" />
+		<Unit filename="model/CPlayerPhase/CPlayerPhase.h" />
+		<Unit filename="model/CPlayerPhase/Field/CField.cpp" />
+		<Unit filename="model/CPlayerPhase/Field/CField.h" />
+		<Unit filename="model/CPlayerPhase/Field/CMetaTile.h" />
+		<Unit filename="model/CPlayerPhase/GPlayerPhase.h" />
+		<Unit filename="model/CPlayerPhase/PawnAI/CPawnAI.cpp" />
+		<Unit filename="model/CPlayerPhase/PawnAI/CPawnAI.h" />
+		<Unit filename="model/CPlayerPhase/PawnTypes/CEnemyPawn.cpp" />
+		<Unit filename="model/CPlayerPhase/PawnTypes/CEnemyPawn.h" />
+		<Unit filename="model/CPlayerPhase/PawnTypes/CPersonPawn.cpp" />
+		<Unit filename="model/CPlayerPhase/PawnTypes/CPersonPawn.h" />
+		<Unit filename="model/CPlayer/CPlayer.h" />
+		<Unit filename="model/CWorld/CBackgrounds.cpp" />
+		<Unit filename="model/CWorld/CBackgrounds.h" />
+		<Unit filename="model/CWorld/CBackgroundsList.cpp" />
+		<Unit filename="model/CWorld/CBackgroundsList.h" />
+		<Unit filename="model/CWorld/CClan.cpp" />
+		<Unit filename="model/CWorld/CClan.h" />
+		<Unit filename="model/CWorld/CClanList.cpp" />
+		<Unit filename="model/CWorld/CClanList.h" />
+		<Unit filename="model/CWorld/CEvent.cpp" />
+		<Unit filename="model/CWorld/CEvent.h" />
+		<Unit filename="model/CWorld/CEventChain.cpp" />
+		<Unit filename="model/CWorld/CEventChain.h" />
+		<Unit filename="model/CWorld/CEventList.cpp" />
+		<Unit filename="model/CWorld/CEventList.h" />
+		<Unit filename="model/CWorld/CEventRandomiser/CEventRandomiser.cpp" />
+		<Unit filename="model/CWorld/CEventRandomiser/CEventRandomiser.h" />
+		<Unit filename="model/CWorld/CLocation.cpp" />
+		<Unit filename="model/CWorld/CLocation.h" />
+		<Unit filename="model/CWorld/CPerson.cpp" />
+		<Unit filename="model/CWorld/CPerson.h" />
+		<Unit filename="model/CWorld/CPersonList.cpp" />
+		<Unit filename="model/CWorld/CPersonList.h" />
+		<Unit filename="model/CWorld/CPropertyList.cpp" />
+		<Unit filename="model/CWorld/CPropertyList.h" />
+		<Unit filename="model/CWorld/CSociete.h" />
+		<Unit filename="model/CWorld/CTurnChecker.cpp" />
+		<Unit filename="model/CWorld/CTurnChecker.h" />
+		<Unit filename="model/CWorld/CWorld.cpp" />
+		<Unit filename="model/CWorld/CWorld.h" />
+		<Unit filename="model/CWorld/GLocation.h" />
+		<Unit filename="model/CWorld/GWorld.h" />
+		<Unit filename="model/CWorld/world_ph.h" />
+		<Unit filename="model/model_ph.h" />
+		<Unit filename="pcgGlobal.h" />
+		<Unit filename="ph.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

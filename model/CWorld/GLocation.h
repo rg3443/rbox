@@ -1,0 +1,7 @@
+#ifndef GLOCATION_H_INCLUDED
+#define GLOCATION_H_INCLUDED
+
+
+
+
+#endif // GLOCATION_H_INCLUDED
